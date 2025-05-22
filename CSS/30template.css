@@ -1,0 +1,62 @@
+
+
+  body {
+        background-color: blueviolet;
+      }
+      section {
+        display: flex;
+        margin: 7rem 10rem;
+        gap: 20px;
+      }
+      #heading {
+        text-align: center;
+        margin-top: 4rem;
+        font-size: 3rem;
+        color: white;
+      }
+      .box1 {
+        margin-top: -4rem;
+        height: 27rem;
+        width: 50%;
+        text-align: center;
+        background-color: white;
+      }
+      img {
+        padding-top: 5px;
+        height: 180px;
+        width: 190px;
+        border-radius: 50%;
+      }
+      #para {
+        margin-top: -1rem;
+        justify-content: center;
+      }
+      .bi {
+        margin-top: -5rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: blueviolet;
+      }
+      .icon {
+        display: flex;
+        text-align: center;
+        margin: 1rem 3rem;
+        padding: 1rem;
+        justify-content: space-evenly;
+        padding: 1rem -1rem 3rem 3rem;
+      }
+      #adjust {
+        margin-top: 1rem;
+      }
+      .ceo {
+        margin-top: -4rem;
+      }
+      i:hover {
+        backdrop-filter: blur(19px);
+        color: aliceblue;
+        background-color: blueviolet;
+        height: 30px;
+        width: 35px;
+        border-radius: 30%;
+        cursor: pointer;
+      }

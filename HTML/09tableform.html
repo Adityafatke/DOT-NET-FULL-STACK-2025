@@ -4,14 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Student Registration Form</title>
+  <link rel="stylesheet" href="../CSS/09tableform.css">
 </head>
 <body>
+  <center>
   <form action="#">
-    <table border="5" cellpadding="8">
-      <tr>
+
+    <table cellpadding="8" class="td">
+      <h1> tcs RegistratioN</h1>
+      <tr class="first">
         <td><label for="firstName">First Name:</label></td>
         <td>
-          <input type="text" id="firstName" placeholder="Aditya" maxlength="50" required />
+          <input class="in" type="text" id="firstName" placeholder="Aditya" maxlength="50" required />
           <small>(Max 50 characters allowed)</small>
         </td>
       </tr>
@@ -19,20 +23,20 @@
       <tr>
         <td><label for="lastName">Last Name:</label></td>
         <td>
-          <input type="text" id="lastName" placeholder="Fatke" maxlength="50" />
+          <input class="in" type="text" id="lastName" placeholder="Fatke" maxlength="50" />
           <small>(Max 50 characters allowed)</small>
         </td>
       </tr>
 
       <tr>
         <td><label for="email">Email ID:</label></td>
-        <td><input type="email" id="email" placeholder="Fatkeadi455@gmail.com" /></td>
+        <td><input class="in" type="email" id="email" placeholder="Fatkeadi455@gmail.com" /></td>
       </tr>
 
       <tr>
         <td><label for="mobile">Mobile Number:</label></td>
         <td>
-          <input type="tel" id="mobile" pattern="[0-9]{10}" placeholder="80106212**" />
+          <input class="in" type="tel" id="mobile" pattern="[0-9]{10}" placeholder="80106212**" />
           <small>(10 digits allowed)</small>
         </td>
       </tr>
@@ -49,7 +53,7 @@
 
       <tr>
         <td><label for="dob">Date of Birth (DOB):</label></td>
-        <td><input type="date" id="dob" /></td>
+        <td><input class="in" type="date" id="dob" /></td>
       </tr>
 
       <tr>
@@ -60,7 +64,7 @@
       <tr>
         <td><label for="city">City:</label></td>
         <td>
-          <input type="text" id="city" placeholder="Pune" maxlength="50" />
+          <input class="in" type="text" id="city" placeholder="Pune" maxlength="50" />
           <small>(Max 50 characters allowed)</small>
         </td>
       </tr>
@@ -68,7 +72,7 @@
       <tr>
         <td><label for="pin">Pin Code:</label></td>
         <td>
-          <input type="number" id="pin" placeholder="414502" />
+          <input class="in" type="number" id="pin" placeholder="414502" />
           <small>(Max 6 digits allowed)</small>
         </td>
       </tr>
@@ -76,14 +80,14 @@
       <tr>
         <td><label for="state">State:</label></td>
         <td>
-          <input type="text" id="state" placeholder="Maharashtra" maxlength="50" />
+          <input class="in" type="text" id="state" placeholder="Maharashtra" maxlength="50" />
           <small>(Max 50 characters allowed)</small>
         </td>
       </tr>
 
       <tr>
         <td><label for="country">Country:</label></td>
-        <td><input type="text" id="country" placeholder="India" /></td>
+        <td><input class="in" type="text" id="country" placeholder="India" /></td>
       </tr>
 
       <tr>
@@ -117,7 +121,7 @@
 
           <input type="checkbox" id="intermediate" />
           <label for="intermediate">Intermediate (12th)</label>
-
+         <br>
           <input type="checkbox" id="bachelors" />
           <label for="bachelors">Graduation (Bachelors)</label>
 
@@ -128,10 +132,13 @@
 
       <tr>
         <td colspan="2" style="text-align:center;">
-          <button type="submit">Submit</button>
+          <button class="button">reset</button>
+          <button type="submit" class="button">Submit</button>
+          
         </td>
       </tr>
     </table>
   </form>
+  </center>
 </body>
 </html>

@@ -2,3 +2,23 @@
 h3{
     color: darkmagenta;
 }
+
+#h1{
+    text-align: center;
+    color: aqua;
+}
+
+#h2{
+    text-decoration: black line-through;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-weight:bold;
+}
+
+

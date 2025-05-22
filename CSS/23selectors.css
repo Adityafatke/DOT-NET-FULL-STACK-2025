@@ -1,0 +1,135 @@
+/* simple selector end */
+
+.simple h1{
+    background-color: black;
+    
+}
+ * .simple {
+    margin: -8px;
+    margin-top: -22px;
+    text-align: center;
+    background-color: aqua;
+    font-family: cursive;
+}
+.t1{
+   color: yellowgreen; 
+   display: inline-block;
+   background-color: blue;
+}
+#t2{
+    color:orange;
+    background: #000;
+    display: block;
+}
+#sele{
+    color: aliceblue;
+    margin-top:4px;
+    font-weight: 600;
+    display: inline-block;
+    
+}
+.cls{
+    background-color:orange;
+    display:block;
+}
+#element{
+    color: yellow;
+    font-weight: 700;
+    display: inline;
+    background-color: black;
+}
+/* simple selector end */
+
+/* attribute selector start */
+
+* .simple1{
+    text-transform: capitalize;
+    background-color: yellowgreen;
+} 
+ #s1{
+    margin: 4px;
+    color:white;
+    display:block;
+    text-align: center;
+} 
+#s2 [title="attribute selector"]
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+/*attribute selector end 
+
+ elemenyt selector starts*/
+      
+.simple2{
+    color: violet;
+    background-color: #000;
+    padding-left: 10px;
+}
+#s21{
+    text-align: center;
+    
+}
+ p::first-line {
+  color: yellow;
+}
+pre::before{
+    content:"hi i am before text";
+    color: aqua;
+}
+h5::after{
+    color: greenyellow;
+    content: "i am attaching using afer attribute";
+}
+h6::first-letter{
+    color: orange;
+    font: weight 700px;;
+    font-size: large;
+}
+
+/*elemenet  selector end 
+
+ psuedo selector starts*/
+
+ .simple3{
+    text-align: center;
+   background-color: violet;
+ }
+.simple3 h1:hover{
+    color: red;
+
+}
+.simple3 h2:active {
+    color:green;
+
+}
+.simple3 input:focus{
+    background-color:orange;
+    height: 40px;
+    width: 500px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+/*psuedo  selector end 
+
+  combinator selector starts*/
+  .simple4{
+    background-color: #000;
+  }
+
+  .simple4>h2{
+   
+    color: white;
+    text-align: center;
+
+  }
+  .simple4>#end p{
+    color: orange;
+    font-size: x-large;
+  }

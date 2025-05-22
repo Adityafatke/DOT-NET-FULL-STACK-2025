@@ -1,0 +1,25 @@
+
+*{
+    font-family: monospace;
+    text-transform: capitalize;
+    border-radius: 13px;
+    font-size: large;
+   
+}
+table{
+    background-color: greenyellow;
+    
+}
+.button{
+    color: red;
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+.in{
+    height: 20px;
+    width: 200px;
+}

@@ -1,0 +1,29 @@
+
+/* in css this is element selector */
+.all{ 
+    text-transform: capitalize;
+    text-align: center;
+    color: orange;
+    background-color: black;
+}
+.trans{
+    text-transform: uppercase;
+}
+.fam{
+    font-family: cursive;
+}
+.prop{
+    font-weight: lighter;
+}
+.size{
+   font-size: large;
+}
+.lhight{
+    line-height: 50px;
+}
+.tdecor{
+    text-decoration: brown underline;
+}
+
+
+
